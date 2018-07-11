@@ -3,7 +3,7 @@
 # This method should accept a hash as an argument.
 
 def list_artists(library)
-  list_artists.each_key do |artist|
+  library.each_key do |artist|
     puts artist
 end
 end

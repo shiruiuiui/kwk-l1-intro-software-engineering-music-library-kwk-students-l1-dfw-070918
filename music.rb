@@ -1,6 +1,5 @@
 def list_artists
-  list_artists={}
-  list_artists.each do |artists|
+  list_artists.each do |library|
 end
 end
 #1. Define a method named `list_artists`. This method should use the `each_key` method to iterate over the hash and return all the artists (the keys)
